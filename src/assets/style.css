@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+  height: 35px;
+    background-color: #ecf6fe;
+}
+
+
+nav p{
+    font-size: 15px;
+line-height: 35px;
+color: #008aff;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+#nav-icos{
+margin-top: 10px;
+}
+
+
+
+#nav-icos i{
+    padding-right: 0 !important;
+    border-radius: 10px;
+    color: #008aff;
+    margin-left: 10px;
+}
+
+.img2{
+  
+    width: 94%;
+    height: 70%;
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    padding: 30px 0 20px 0;
+    padding-left: 40px;
+}
+header{
+    
+padding-bottom: 130px;
+    background-size: cover;
+    background-image: url(../assets/IMAGE.png);
+}
+#pills-tab{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center !important;
+    font-size: 15px;
+}
+.nav-link{
+   border-radius: 20px !important; 
+}
+
+.btn1{
+    border-color: #ffe824 !important;
+    margin-left: 8px;
+    width: 179px !important;
+height: 43px;
+border-radius: 22px;
+background-color: #ffe824 !important;
+    font-size: 16px;
+color: #474747;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+
+.header-h3{
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 33px;
+color: #008aff;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+.header-h2{
+    margin-left: 145px;
+    font-size: 65px;
+color: #13287e;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.header-p{
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 675px;
+height: 58px;
+font-size: 18px;
+line-height: 35px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+.btn2{
+    margin-top: 40px;
+    margin-left: 130px;
+    border-color: #ffe824;
+    font-size: 14px;
+color: #474747;
+font-weight: 400;
+font-family: "Josefin Sans";
+width: 200px;
+height: 65px;
+border-radius: 33px;
+background-color: #ffe824;
+}
+
+.card-text{
+    width: 300px;
+height: 100px;
+font-size: 20px;
+line-height: 35px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+.card-header{
+    border: #fff;
+    background-color: #fff;
+    text-align: center;
+}
+.vl{
+   margin-top: 190px;
+    border-left: 2px solid rgb(160, 160, 160);
+  height: 600px;
+}
+.card-header{
+    
+    
+    font-size: 33px;
+    color: #008aff;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+}
+
+.hr-hr{
+    position: relative;
+}
+.hr-img{
+ 
+    position: absolute;
+    bottom: -172px;
+    left: 512px;
+}
+
+.card{
+    margin-bottom: 70px;
+    margin-left: 30px;
+    padding-top: 70px;
+   width: 100px;
+
+    border: none;
+     border-radius: 150px 30px 10px 40px;
+}
+.card-img-top{
+   border-radius: 90px 3px;
+}
+
+#btn6{
+    border-color: #ffe824;
+    font-size: 14px;
+color: #474747;
+font-weight: 400;
+font-family: "Josefin Sans";
+width: 200px;
+height: 64px;
+border-radius: 33px;
+background-color: #ffe824;
+    margin-top:40px ;
+}
+.ul-li{ 
+
+    text-decoration: none;
+    margin-top: 50px;
+    display: block;
+}
+.ul{
+    margin-right: 80px;
+}
+
+
+.section3 h2{
+    margin-top: 250px;
+    text-align: center;
+    font-size: 33px;
+color: #13287e;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+
+.premium-h5{
+    font-size: 28px;
+color: #13287e;
+font-weight: 400;
+font-family: "Josefin Sans";
+    margin-top: 30px;
+}
+.premium-hr{
+    border-style: 5px solid #e3cf18 ;
+    color: #ffed50;
+    width: 50%;
+    height: 2px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.section4{
+    background-image: url(Group3.png);
+}
+.section4 h3{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 33px;
+color: #13287e;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.section4 p{
+    margin-top: 30px;
+margin-left: 350px;
+    width: 675px;
+height: 86px;
+font-size: 20px;
+line-height: 35px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: center !important;
+}
+.section4 img{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.section4-p1{
+    font-size: 19px;
+line-height: 23px;
+color: #f7b74d !important;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: center;
+}
+.section4-h6{
+    font-size: 19px;
+    line-height: 23px;
+    
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+
+
+.section5 {
+    background-color: #f6f4f4;
+}
+
+.section5-h3 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 33px;
+    color: #13287e;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+}
+
+.section5-p {
+    padding-bottom: 130px;
+    padding-top: 30px;
+    padding-left: 95px;
+    height: 51px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #474747;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+.card-text-per {
+    font-size: 27px;
+    text-align: center;
+}
+.sup{
+    font-size: 27px;
+color: #474747;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.card-text-sub{
+    font-size: 119px;
+color: #008aff;
+font-weight: 600;
+font-family: "Josefin Sans";
+}
+
+.card-header {
+    border: none;
+    text-align: center;
+    font-size: 23px;
+}
+
+.card {
+    margin-bottom: 100px;
+    border-style: ridge;
+    border-radius: 15px;
+}
+
+.card-text {
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 250px;
+    height: 156px;
+    font-size: 17px;
+    line-height: 35px;
+    color: #474747;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    text-align: center;
+
+}
+.section5 a{
+    text-decoration: none;
+}
+
+.btn5 {
+    text-align: center;
+    font-size: 27px;
+    color: #474747;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+    width: 219px;
+    height: 67px;
+    border-color: #ffe824;
+    border-radius: 34px;
+    background-color: #ffe824;
+}
+#section6{
+    position: relative;
+}
+.img-layer{
+    position: absolute;
+ left: 45%;
+}
+.img-text{
+    position: absolute;
+    top: 32%;
+    left: 27%;
+    font-size: 44px;
+letter-spacing: 1px;
+line-height: 38px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Josefin Sans";
+text-align: center;
+filter: drop-shadow(3.277px 2.294px 1px rgba(0,0,0,0.16));
+}
+.section6 {
+    height: 550px;
+    background-size: 100% 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-image: url(22.png);
+}
+
+.section6-h1 {
+
+    padding-left: 260px;
+    padding-top: 200px;
+    display: block;
+    font-size: 68px;
+    color: #13287e;
+    font-weight: 600;
+    font-family: "Josefin Sans";
+}
+
+.section6-p {
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 679px;
+    height: 70px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #474747;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+.card-link{
+    text-decoration: none;
+}
+
+.section6-button {
+    margin-top: 2%;
+    margin-left: 45%;
+    
+    font-size: 14px;
+    color: #474747;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+    width: 219px;
+    height: 67px;
+    text-align: right;
+    border-color: #ffe824;
+    border-radius: 33px;
+    background-color: #ffe824;
+}
+.email-button{
+    position: relative;
+}
+.email {
+    position: static;
+    top: 52%;
+    left: 46.5%;
+    position: absolute;
+
+}
+
+
+
+.section7-h3 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 33px;
+    color: #13287e;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+}
+
+.section7-p1 {
+    margin-bottom: 100px;
+    margin-top: 40px;
+    height: 51px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #474747;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+.section7-h5 {
+    width: 374px;
+    height: 52px;
+    font-size: 23px;
+    color: #13287e;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+
+.section7-p {
+    width: 357px;
+    height: 51px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #474747;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+
+.card {
+    border: none;
+}
+
+#pills-home-tab {
+    border-radius: 50px;
+}
+
+#pills-profile-tab {
+    border-radius: 50px;
+}
+
+#pills-contact-tab {
+    border-radius: 50px;
+}
+
+#button1 {
+    border-color: #ffe824;
+    font-size: 14px;
+    color: #474747;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+    width: 219px;
+    height: 67px;
+    border-radius: 34px;
+    background-color: #ffe824;
+}
+
+footer input {
+    display: block;
+    padding: 5px 30px;
+   
+}
+.input-send{
+    position: relative; 
+}
+
+#footer-button2 {
+    position: static;
+    background-color: #fff;
+    border: none;
+    right: 200px;
+    top: 20.7%;
+    position: absolute;
+}
+
+footer img {
+    padding-bottom: 40px;
+}
+
+.icons {
+
+    margin-left: 10px;
+    padding-top: 20px;
+
+}
+
+.icons i {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.son {
+    padding-top: 30px;
+}
+
+.son2 {
+    text-align: center;
+}
